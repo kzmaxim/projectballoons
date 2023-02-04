@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box; }\nbody {\n    font-family: 'Roboto';\n    font-weight: 400;\n    color: #777777;\n    font-size: 16px;\n    letter-spacing: 2px;\n    padding: 50px; }\n.container {\n    background-color: #F7F7F7; }\n"
+	],
+	"names": [],
+	"mappings": ";;AAAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CAAG;;;AAC7B,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,QAAQ;EACrB,WAAW,EAAE,GAAG;EAChB,KAAK,EAAE,OAAO;EACd,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,GAAG;EACnB,OAAO,EAAE,IAAI;CAAG;;;AACpB,AAAA,UAAU,CAAC;EACP,gBAAgB,EAAE,OAAO;CAAG"
+}
