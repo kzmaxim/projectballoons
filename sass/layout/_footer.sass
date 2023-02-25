@@ -1,0 +1,27 @@
+.section-footer
+    background: #333333
+    width: 100%
+    text-align: center
+    padding: 8rem 0rem 8rem 0rem
+.section-footer__logo
+    width: 12rem
+    margin-bottom: 5rem
+.footer-link
+    &, &:link, &:visited, &:active
+        font-size: $font-size-paragraph
+        font-weight: 300
+        letter-spacing: .2rem
+        color: $color-white
+        text-decoration: none
+        text-transform: uppercase
+        display: inline-block
+        transition: .3s all
+    &:hover
+        transform: rotate(5deg) scale(1.2)
+        color: $color-brown-dark
+.footer-links
+    list-style: none
+.footer-item
+    display: inline-block
+    &:not(:last-child)
+        margin-right: 5rem

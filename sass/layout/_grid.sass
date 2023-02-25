@@ -1,0 +1,31 @@
+// Колонки 
+.row
+    max-width: $grid-width
+    margin: 0 auto
+    &:not(:last-child)
+        margin-bottom: $margin-vertical-big
+    @include clearfix
+
+// Отступы и размеры колонок у сетки грид
+[class^="col-"]
+    &:not(:last-child)
+        margin-right: $guttet-gotizontal
+    float: left
+
+.col-1-of-2
+    width: calc((100% - #{$guttet-gotizontal}) / 2)
+
+.col-1-of-3
+    width: calc((100% - 2 * #{$guttet-gotizontal}) / 3)
+
+.col-2-of-3
+    width: calc(2 * ((100% - 2 * #{$guttet-gotizontal}) / 3) + #{$guttet-gotizontal})
+
+.col-1-of-4
+    width: calc((100% - 3 * #{$guttet-gotizontal}) / 4)
+
+.col-2-of-4
+    width: calc(2 * ((100% - 3 * #{$guttet-gotizontal}) / 4) + #{$guttet-gotizontal})
+
+.col-3-of-4
+    width: calc(3 * ((100% - 3 * #{$guttet-gotizontal}) / 4) + 2 * #{$guttet-gotizontal})

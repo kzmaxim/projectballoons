@@ -1,0 +1,14 @@
+// Миксин который устанавливает стили для кнопки
+@mixin style-link($color)
+    text-transform: uppercase
+    display: inline-block
+    text-decoration: none
+    color: $color
+
+// Миксин для очищения контента от float
+@mixin clearfix
+    &::after
+        content: ""
+        display: table
+        clear: both
+    
